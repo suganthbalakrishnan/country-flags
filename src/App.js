@@ -23,7 +23,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Countries Search</h1>
+      
       <div className="countries-grid">
         {countries.map((country) => (
           <div key={country.name.common} className="country-card" style={{ flexDirection: 'column' }}>

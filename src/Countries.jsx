@@ -16,7 +16,7 @@ const CountryCard = ({name,flagImg,flagAltTxt}) => {
          height:"200px"
         }}
         >
-            <img src={flagImg} alt={flagAltTxt} style={{width:"100px",height:"100px"}}
+            <img src={flagImg} alt={name} style={{width:"100px",height:"100px"}}
             />
             <h2>{name}</h2>
         </div>
